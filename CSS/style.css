@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+}
+
+header {
+  margin: 50px 60px 0px 50px;
+}
+header .navbar {
+  background-color: white;
+  padding: 20px;
+  border-radius: 50px;
+}
+header .navbar .name {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  float: left;
+}
+header .navbar .menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+header .navbar .menu li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

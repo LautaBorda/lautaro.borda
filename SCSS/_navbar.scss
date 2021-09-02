@@ -1,0 +1,35 @@
+body {
+    background-color: gray;
+}
+
+
+header {
+
+    margin: 50px 60px 0px 50px;
+
+
+    .navbar {
+        background-color: white;
+        padding: 20px;
+        border-radius: 50px;
+        
+        .name {
+            display: flex;
+            justify-content: center;
+            width: 200px;
+            float: left;
+            
+
+        }
+        .menu{
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 50px;
+            li {
+                list-style-type: none;
+                display: inline;
+                margin-right: 30px;
+            }
+        }
+    }
+}
